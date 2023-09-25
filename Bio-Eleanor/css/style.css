@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    hyphens: 100vh;
+}
+
+.box {
+    width: 500px;
+    height: 800px;
+
+}
+ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    margin: 0 15px;
+}
+
+h1 {
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+nav {
+    display: flex;
+        justify-content: space-around;
+    font-family: 'Sarala', sans-serif;
+}
+nav p {
+    font-weight: bold;
+    margin: 0 30px;
+    font-family: 'Sarala', sans-serif;
+}
+.img-Eleanor{
+    top: 0; 
+    height: calc(72vh - 150px);
+    background: no-repeat center/cover url("https://www.burgundyasset.com/wp-content/uploads/Elenore-R-mobiledesktop.jpg")
+}
+ .header-content {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 2.2em;
+    font-family: 'Sarala', sans-serif;
+}
+
+.header-content h1{
+    margin-bottom: 10px;
+    color: #a83636;
+    font-weight: 700;
+    line-height: 1.1;
+
+}
+
+.main{
+    margin: 5px 20vw;
+}
+
+span {
+    font-size: medium;
+}
+
