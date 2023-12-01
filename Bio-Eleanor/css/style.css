@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 .container {
     width: 100%;
     hyphens: 100vh;
@@ -65,7 +64,18 @@ nav p {
     line-height: 1.1;
 
 }
+#toggleDetails {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #a83636;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
 
+#additionalDetails {
+    margin-top: 10px;
+}
 .main{
     margin: 5px 20vw;
 }
@@ -73,4 +83,3 @@ nav p {
 span {
     font-size: medium;
 }
-
